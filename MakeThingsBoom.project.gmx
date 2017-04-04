@@ -12,6 +12,11 @@
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_monster</sprite>
     <sprite>sprites\spr_base</sprite>
+    <sprite>sprites\spr_pause</sprite>
+    <sprite>sprites\spr_exit</sprite>
+    <sprite>sprites\spr_sound</sprite>
+    <sprite>sprites\spr_box</sprite>
+    <sprite>sprites\spr_checkbox</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -23,9 +28,14 @@
     <object>objects\obj_monster</object>
     <object>objects\obj_enemy_spawner</object>
     <object>objects\obj_base</object>
+    <object>objects\obj_pause</object>
+    <object>objects\obj_exit</object>
+    <object>objects\obj_sound_on_off</object>
+    <object>objects\obj_sound_text</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main_room</room>
+    <room>rooms\menu_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
