@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///setup how often to spawn enemies
-seconds_between_spawns = random(2);
+seconds_between_spawns = random(5);
 alarm[0] = seconds_between_spawns;
 </string>
           </argument>
@@ -51,8 +51,12 @@ alarm[0] = seconds_between_spawns;
           <argument>
             <kind>1</kind>
             <string>///create an enemy
-instance_create(random_range(0, room_width), random_range(0, 100), obj_monster);
-alarm[0] = seconds_between_spawns;
+var max_enemies = 10;
+var number_of_enemies = instance_number(obj_monster);
+if number_of_enemies &lt;= max_enemies {
+    instance_create(random_range(0, room_width), random_range(0, 100), obj_monster);
+    alarm[0] = seconds_between_spawns;
+}
 </string>
           </argument>
         </arguments>

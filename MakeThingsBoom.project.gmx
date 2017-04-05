@@ -18,7 +18,9 @@
     <sprite>sprites\spr_box</sprite>
     <sprite>sprites\spr_checkbox</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_starfield</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\path_monster</path>
   </paths>
