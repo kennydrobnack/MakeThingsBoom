@@ -1,0 +1,38 @@
+Converting GML script : ${project_dir}\objects\obj_bullet\Create_0.gml
+Converted string : line 5 : 'true' -> "true"
+
+Converting GML script : ${project_dir}\objects\obj_sound_on_off\Create_0.gml
+Converted string : line 5 : 'true' -> "true"
+
+Converting GML script : ${project_dir}\objects\obj_sound_on_off\Mouse_4.gml
+Converted string : line 2 : 'true' -> "true"
+Converted string : line 3 : 'false' -> "false"
+Converted string : line 7 : 'true' -> "true"
+
+Converting GML script : ${project_dir}\rooms\main_room\RoomCreationCode.gml
+Converted builtin : line 7 : background_hspeed[0] = 1 -> __background_set( e__BG.HSpeed, 0, 1 )
+Converted builtin : line 6 : background_vspeed[0] = 2 -> __background_set( e__BG.VSpeed, 0, 2 )
+Converted string : line 3 : 'true' -> "true"
+
+Converting GML script : ${project_dir}\objects\obj_monster\Collision_94c5d929-9670-41ea-9801-f3f78eb5758c.gml
+Converted string : line 2 : 'true' -> "true"
+
+Converting GML script : ${project_dir}\rooms\menu_room\RoomCreationCode.gml
+Converted string : line 3 : 'Menu' -> "Menu"
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit.
+game speed set to 60
+added compatibility script action/action_path.gml
+added compatibility script action/action_previous_room.gml
+added compatibility script action/action_set_alarm.gml
+added compatibility script background/__background_set.gml
+added compatibility script background/__background_set_internal.gml
+added compatibility script instance/instance_create.gml
+added compatibility script object/object_get_depth.gml
+added compatibility script action/__init_action.gml
+added compatibility script background/__init_background.gml
+added compatibility script __init_global.gml
+added compatibility script background/__background_get_element.gml
+added compatibility script background/__background_get_internal.gml
+added compatibility script background/__background_set_element.gml
+added compatibility script __global_object_depths.gml
